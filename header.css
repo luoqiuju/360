@@ -1,0 +1,48 @@
+@charset "utf-8";
+ul { list-style-type: none;}
+div.content {width: 1000px; margin:0 auto}
+/************************header部分****************************/
+header { border:0;}
+div.logo { 
+	float:left; width: 152px; height: 27px;
+	background-image: url(images/iconlist_1.png);
+	background-position: -868px -100px;
+	margin-top: 10px;
+}
+header ul {	float: right;}
+header ul li { float: left; position: relative;}
+header ul a { 
+	display: block; 
+	text-decoration: none;
+	height: 47px;
+	line-height: 47px;
+	padding: 0 15px;
+	color: #5c5c5c;
+	transition: border 0.3s;
+}
+a.android,a.ios {
+	width: 66px; height: 26px;
+	background-image: url(images/iconlist_2.png);
+	margin-top: 12px;
+}
+a.android { background-position: -430px -671px}
+a.ios { background-position: -1655px -536px}
+
+header ul a:not([class]):hover,header ul a.current {
+	border-bottom: 3px solid #f1595f;
+}
+#android_code {
+	width: 180px; height: 210px;
+	background-image: url(images/iconlist_2.png);
+	background-position: -1654px -298px;
+	position: absolute;
+	top: 48px;
+	display: none;
+}
+
+#android:hover div {
+	display: block;
+}
+
+// onmouseover="this.querySelector('div').style.display='block'" 
+// onmouseout="this.querySelector('div').style.display='none'" 

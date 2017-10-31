@@ -1,0 +1,45 @@
+@charset "utf-8";
+/**************图标部分************************/
+#icons { border: 0;}
+#icons ul {
+	padding-top: 100px;
+	padding-left: 50px;
+}
+#icons ul li {
+	float: left;
+	width: 300px;
+	height: 175px;
+	margin-left: 5px;
+	// border: 1px solid red;
+}
+#icons ul b {
+	float: left;
+	width: 85px;
+	height: 80px;
+	background-image: url(images/iconlist_3.png);
+	margin-right: 10;
+}
+#icons ul b:hover {
+	-webkit-animation: jump 0.3s linear 2;
+}
+#icons ul div {
+	float: left;
+	width: 200px;
+	line-hieght: 20px;
+	font-size:11px;
+	color: #a3a3a3;
+}
+#icons ul div h3 {
+	color: #ffe325;
+	font-size: 16pt;
+	margin: 10px auto;
+}
+
+/*******图标的动画**********/
+@-webkit-keyframes jump {
+	0% { transform: rotate(0deg); opacity:1;}
+	25% { transform: rotate(-10deg); opacity:0.5;}
+	50% { transform: rotate(0deg); opacity:1;}
+	75% { transform: rotate(10deg); opacity:0.5;}
+	100% { transform: rotate(0deg); opacity:1;}
+}

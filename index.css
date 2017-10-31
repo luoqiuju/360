@@ -1,0 +1,18 @@
+@charset "utf-8";
+*{	margin: 0;	padding: 0;}
+/****************总体设置***********************/
+body {
+	font-size: 12pt;
+	color:#666;
+	font-family: "微软雅黑",Arial;
+}
+header,footer,section {
+	width: 100%;
+	border: 1px solid black;
+}
+#description,#warn,#icons {width: 80%; margin: 0 auto;}
+header { height: 50px;}
+#banner { height: 550px;}
+#description,#call,#warn,#location { height: 650px;}
+// #icons {/* height: 480px; */ background: gray; }
+footer { clear: both; height: 170px;}

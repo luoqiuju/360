@@ -1,0 +1,62 @@
+@charset "utf-8";
+/***********************一键呼叫********************************/
+#call {
+	border: 0;
+	background-image: url(images/bg_2.jpg);
+	background-position: 50% 80%;
+	background-size: 120% 120%;
+}
+#call>div {
+	width: 50%; height: 500px;
+	float: left;
+	margin-top: 100px;
+	padding-right: 40px;
+	text-align: right;
+
+}
+#call>div h3 {
+	font-size: 30pt;
+	font-weight: normal;
+	height: 90px;
+	line-height: 90px;
+	color: #ffe325;
+	margin: 40px 0;
+}
+#call>div h3 b {
+	float: right;
+	width: 80px; height: 86px;
+	background-image: url(images/iconlist_3.png);
+}
+#call>div p {
+	font-size: 14pt;
+	line-height: 30px;
+	color:#8b7f73;
+}
+#call>b {
+	float: left;
+	width: 255px;
+	height: 530px;
+	background-image:  url(images/iconlist_2.png);
+	background-position: -570px 0;
+	margin-top: 70px;
+	transition: transform 1s;
+}
+#call>b:hover {
+	transform: rotate(15deg);
+}
+
+/***************智能提醒*********************/
+#warn {
+	border: 0;
+	background-image: url(images/bg_3.jpg);
+	background-position: 100% 100%;
+	background-size: 100% 100%;
+}
+
+/********************************************/
+#location {
+	border: 0;
+	background-image: url(images/bg_4.jpg);
+	background-position: 100% 100%;
+	background-size: 100% 100%;
+}
